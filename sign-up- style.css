@@ -1,0 +1,137 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) ;
+    position: relative;
+}
+@media (max-width: 767px) {
+    .login {
+        width: 220px;
+        
+    }
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43vh;
+   
+}
+input {
+    width: 40vh;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+    input {
+        width: 200px;
+    }
+}
+button {
+    width: 41.7vh;
+    height: 35px;
+    border: none;
+    background-color: #4CAF50 ;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    button {
+        width: 210px;
+    }
+}
+button:hover {
+    background-color: #45a148;
+}
+.form label {
+    display: flex;
+    color: #555;
+}
+p {
+    position: absolute;
+    right: 110px;
+    top: 400px;
+    font-size: 15px;
+}
+@media (max-width: 767px) {
+    p {
+        right: 73px;
+    }
+}
+.one {
+    position: absolute;
+    top: 455px;
+    right: 150px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.f {
+    background-color: #1877f2;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-weight: bold;
+    width: 15px;
+    height: 15px;
+    left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .f {
+        left: 138px;
+    }
+}
+.g {
+    background-color: #DB4437;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-weight: bold;
+    width: 15px;
+    height: 15px;
+    right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .g {
+        right: 147px;
+    }
+}
+.back {
+    position: absolute;
+    top: 505px;
+    right: 95px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 15px;
+}
+@media (max-width: 767px) {
+    .back {
+        right: 59px;
+    }
+}
+.back:hover {
+    color: #1a5276;
+}
